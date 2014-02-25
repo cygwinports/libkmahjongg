@@ -1,7 +1,7 @@
 inherit kde4
 
 NAME="libkmahjongg"
-VERSION=4.10.5
+VERSION=4.11.5
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="KDE Mahjongg game library"
@@ -10,4 +10,5 @@ PKG_NAMES="libkmahjongg4 libkmahjongg-common libkmahjongg-devel"
 libkmahjongg4_REQUIRES="libkmahjongg-common"
 libkmahjongg4_CONTENTS="usr/bin/cygkmahjongglib-4.dll"
 libkmahjongg_common_CONTENTS="usr/share/doc/ usr/share/kde4/apps/kmahjongglib/"
+libkmahjongg_devel_REQUIRES="libkdecore-devel"
 libkmahjongg_devel_CONTENTS="usr/include/ usr/lib/"
